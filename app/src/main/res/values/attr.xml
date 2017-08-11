@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="EditTextWithTips">
+    <attr name="leftText" format="string" />
+    <attr name="rightText" format="string" />
+    <attr name="rightHint" format="string" />
+    <attr name="leftTextSize" format="dimension" />
+    <attr name="rightTextSize" format="dimension" />
+    <attr name="allTextSize" format="dimension" />
+  </declare-styleable>
+</resources>

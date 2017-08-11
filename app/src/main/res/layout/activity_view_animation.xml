@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+  <LinearLayout
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      tools:context="com.example.huangwei.animationapp.activity.MainActivity"
+      android:gravity="center_horizontal"
+      >
+
+    <Button
+        android:id="@+id/btn_view_animation_alpha"
+        android:text="@string/text_view_animation_alpha"
+        style="@style/ViewAnimation.Button"
+        />
+
+    <Button
+        android:id="@+id/btn_view_animation_rotate"
+        android:text="@string/text_view_animation_rotate"
+        style="@style/ViewAnimation.Button"
+        />
+
+    <Button
+        android:id="@+id/btn_view_animation_translate"
+        android:text="@string/text_view_animation_translate"
+        style="@style/ViewAnimation.Button"
+        />
+
+    <Button
+        android:id="@+id/btn_view_animation_scale"
+        android:text="@string/text_view_animation_scale"
+        style="@style/ViewAnimation.Button"
+        />
+
+    <Button
+        android:id="@+id/btn_view_animation_set"
+        android:text="@string/text_view_animation_set"
+        style="@style/ViewAnimation.Button"
+        />
+  </LinearLayout>
+</ScrollView>
