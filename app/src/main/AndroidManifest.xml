@@ -18,7 +18,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name=".activity.ViewAnimationActivity" />
+    <activity android:name=".activity.ViewAnimActivity" />
     <activity android:name=".activity.PropertyAnimActivity" />
     <activity android:name=".activity.ObjectAnimActivity" />
   </application>

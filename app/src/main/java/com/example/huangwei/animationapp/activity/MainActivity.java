@@ -9,8 +9,8 @@ import android.widget.ListView;
 import com.example.huangwei.animationapp.R;
 
 public class MainActivity extends ListActivity {
-  private final int ITEM_VIEW_ANIMATION = 0;
-  private final int ITEM_PROPERTY_ANIMATION = 1;
+  final int ITEM_VIEW_ANIMATION = 0;
+  final int ITEM_PROPERTY_ANIMATION = 1;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class MainActivity extends ListActivity {
   protected void onListItemClick(ListView l, View v, int position, long id) {
     switch (position) {
       case ITEM_VIEW_ANIMATION:
-        startActivity(new Intent(this, ViewAnimationActivity.class));
+        startActivity(new Intent(this, ViewAnimActivity.class));
         break;
       case ITEM_PROPERTY_ANIMATION:
         startActivity(new Intent(this, PropertyAnimActivity.class));

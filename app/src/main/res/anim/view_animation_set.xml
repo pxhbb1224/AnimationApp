@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:shareInterpolator="true"
+     android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+     android:zAdjustment="normal"
+     android:fillAfter="true"
+    >
+  <alpha
+      android:duration="1000"
+      android:fromAlpha="0.9"
+      android:toAlpha="0.2"
+      />
+  <set
+      android:fillAfter="false"
+      android:fillBefore="true"
+      >
+    <scale
+        android:duration="1000"
+        android:fromXScale="1"
+        android:toXScale="2"
+        android:fromYScale="1"
+        android:toYScale="2"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="1000"
+        />
+  </set>
+
+
+  <translate
+      android:duration="1000"
+      android:fromXDelta="0"
+      android:toXDelta="100"
+      android:fromYDelta="0"
+      android:toYDelta="0"
+      android:startOffset="4000"
+      />
+  <rotate
+      android:duration="1000"
+      android:fromDegrees="0"
+      android:toDegrees="270"
+      android:pivotX="50%"
+      android:pivotY="50%"
+      android:startOffset="3000"
+      />
+</set>
+    <!--  默认情况下是同时进行的   -->
+    <!--  pivotX/pivotY 的inputType 是百分比,当取值在百分数后面加上一个字母p，就表示，
+          取值的基数是父控件，即在原点的基础上增加的值是父标签的百分值。  -->
+    <!--  android:fillAfter="false"  表示动画结束后是否保留动画结果，true是保留
+          android:fillBefore = "true" 表示动画结束后维持动画之前的效果
+          但是，这个只是针对整个set才有用的
+          本例中的透明度、缩放虽然都设置动画效果时间只有1s，但是，可以观察到效果将会维
+          持整个set结束，但单独给某一个set中的动画设置是无效的
+          同时，fillAfter = true 只是将视图保持动过结束的视觉效果，相当于一个“残影”
+          只有当你点击之前的位置才有点击效果。-->
+    <!--  android:startOffset="3000" 	动画之间的时间间隔，从上次动画停多少时间开始执行
+          下个动画,从第一次的动画开始算，如这里最后执行的是平移translate  -->

@@ -4,5 +4,15 @@
   <string name="text_view_animation_rotate">旋转</string>
   <string name="text_view_animation_translate">位移</string>
   <string name="text_view_animation_scale">缩放</string>
-  <string name="text_view_animation_set">组合</string>
+  <string name="text_view_animation_set_first">组合1</string>
+  <string name="text_view_animation_set_sec">组合2</string>
+  <string name="text_view_animation_tips_title">Tips:</string>
+  <string name="text_view_animation_tips_content_set_sec">
+    1. 这是通过xml文件写的一个视图动画，它里面有多个动画，且多个动画默认是同时进行的。\n
+    2. 通过设置android：startOffset=1000 来控制多个动画出现时间，注意这里的是该动画与set组里动画的第一个动画的时延，而非上一个动画。\n
+    3. 通过设置android:fillAfter=true来实现保持动画的“残影”显示，这不违背视图动画的“只是演示，没有发生变化”的效果，就相当于动画进行到最后点击
+    暂停按钮.再次点击按钮,可以发现只有点击之前按钮的位置才会有响应，通过打log可以得出btn.getX/getY在动画前后维持不变。
+  </string>
+  <string name="title_view_animation_activity">视图动画</string>
+  <string name="title_object_animation_activity">Object Animation</string>
 </resources>

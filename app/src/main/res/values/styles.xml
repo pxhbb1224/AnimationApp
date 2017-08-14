@@ -20,4 +20,12 @@
     <item name="android:layout_marginBottom">10dp</item>
   </style>
 
+  <style name="ViewAnimation.Text">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:paddingStart">10dp</item>
+    <item name="android:paddingEnd">10dp</item>
+    <item name="android:layout_gravity">start|center_vertical</item>
+    <item name="android:visibility">gone</item>
+  </style>
+
 </resources>
