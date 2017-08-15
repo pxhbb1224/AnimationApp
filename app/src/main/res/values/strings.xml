@@ -4,6 +4,7 @@
   <string name="text_view_animation_rotate">旋转</string>
   <string name="text_view_animation_translate">位移</string>
   <string name="text_view_animation_scale">缩放</string>
+  <string name="text_view_animation_set_def">组合</string>
   <string name="text_view_animation_set_first">组合1</string>
   <string name="text_view_animation_set_sec">组合2</string>
   <string name="text_view_animation_tips_title">Tips:</string>
@@ -15,4 +16,9 @@
   </string>
   <string name="title_view_animation_activity">视图动画</string>
   <string name="title_object_animation_activity">Object Animation</string>
+  <string name="text_object_animation_tips_def">
+    1. 属性动画跟视觉动画的不同，首先在于属性动画改变的是view的真实属性，它的动画效果结束后，view的状态也会发生变化。可以比较视觉跟属性的“缩放”，会发现点击属性动画缩放后的区域，是有响应的。\n
+    2. 同时，属性动画支持很高的扩展性，同样是缩放，但是这里的“缩放”是去改变空间的width而不是把整个内容扩大，可以看到点击缩放并没有把文字放大。\n
+    3. 但是，我发现制作动画最好要把他们写成一个“闭合”的回路，比如说“透明度”和“位移”，正因为属性动画把view的状态真实改变了，在点击第二次或者更多，就会发现初始状态总是从不透明到透明，而“位移”写成一个回路，看起来就舒服很多。
+  </string>
 </resources>
