@@ -21,6 +21,7 @@
     <activity android:name=".activity.ViewAnimActivity" />
     <activity android:name=".activity.PropertyAnimActivity" />
     <activity android:name=".activity.ObjectAnimActivity" />
+    <activity android:name=".activity.SVGAnimAcvtivity" />
   </application>
 
 </manifest>
