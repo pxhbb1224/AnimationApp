@@ -3,4 +3,6 @@
   <dimen name="default_textSize">16sp</dimen>
   <dimen name="default_padding_left">12dp</dimen>
   <dimen name="default_padding_right">12dp</dimen>
+  <dimen name="default_svg_height">200dp</dimen>
+  <dimen name="default_svg_width">200dp</dimen>
 </resources>

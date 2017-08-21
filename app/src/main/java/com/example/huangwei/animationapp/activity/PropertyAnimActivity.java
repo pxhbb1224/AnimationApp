@@ -17,6 +17,7 @@ import com.example.huangwei.animationapp.R;
 public class PropertyAnimActivity extends ListActivity {
   final int ITEM_OBJECT_ANIMATOR = 0;
   final int ITEM_VALUE_ANIMATOR = 1;
+  final int ITEM_SVG_ANIMATOR = 2;
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -32,6 +33,11 @@ public class PropertyAnimActivity extends ListActivity {
         startActivity(new Intent(this,ObjectAnimActivity.class));
         break;
       case ITEM_VALUE_ANIMATOR:
+        break;
+      case ITEM_SVG_ANIMATOR:
+        startActivity(new Intent(this,SVGAnimAcvtivity.class));
+        break;
+      default:
         break;
     }
   }

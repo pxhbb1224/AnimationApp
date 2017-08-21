@@ -6,22 +6,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
   <Button
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_gravity="center_horizontal"
-      tools:text="线图动画"
+      android:id="@+id/btn_svg_line_anim"
+      style="@style/LinearLayout.SingleButton"
+      android:text="@string/anim_svg_line"
       />
   <Button
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_gravity="center_horizontal"
-      tools:text="三球仪"
+      android:id="@+id/btn_svg_three_ball_anim"
+      style="@style/LinearLayout.SingleButton"
+      android:text="@string/anim_svg_three_ball"
       />
   <Button
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_gravity="center_horizontal"
-      tools:text="轨迹动画"
+      android:id="@+id/btn_svg_path_anim"
+      style="@style/LinearLayout.SingleButton"
+      android:text="@string/anim_svg_path"
       />
   <Space
       android:layout_width="match_parent"
@@ -30,10 +27,14 @@
   <TextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      tools:text="效果图："
+      android:text="@string/anim_svg_static_tips"
       />
   <ImageView
+      android:id="@+id/image_svg_anim"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:visibility="gone"
+      tools:visibility="visible"
+      tools:src="@drawable/animated_vector_drawable_line_anim"
       />
 </LinearLayout>

@@ -21,4 +21,8 @@
     2. 同时，属性动画支持很高的扩展性，同样是缩放，但是这里的“缩放”是去改变空间的width而不是把整个内容扩大，可以看到点击缩放并没有把文字放大。\n
     3. 但是，我发现制作动画最好要把他们写成一个“闭合”的回路，比如说“透明度”和“位移”，正因为属性动画把view的状态真实改变了，在点击第二次或者更多，就会发现初始状态总是从不透明到透明，而“位移”写成一个回路，看起来就舒服很多。
   </string>
+  <string name="anim_svg_line">线图动画</string>
+  <string name="anim_svg_three_ball">三球仪</string>
+  <string name="anim_svg_path">轨迹动画</string>
+  <string name="anim_svg_static_tips">效果图:</string>
 </resources>

@@ -8,6 +8,6 @@
   <string-array name="property_animation_items">
     <item>Object Animator</item>
     <item>Value Animator</item>
-
+    <item>SVG Animator</item>
   </string-array>
 </resources>
