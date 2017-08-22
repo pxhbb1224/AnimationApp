@@ -35,7 +35,7 @@ public class PropertyAnimActivity extends ListActivity {
       case ITEM_VALUE_ANIMATOR:
         break;
       case ITEM_SVG_ANIMATOR:
-        startActivity(new Intent(this,SVGAnimAcvtivity.class));
+        startActivity(new Intent(this,SVGAnimActivity.class));
         break;
       default:
         break;

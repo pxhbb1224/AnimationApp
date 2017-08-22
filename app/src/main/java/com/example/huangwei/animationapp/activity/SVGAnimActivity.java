@@ -15,7 +15,7 @@ import com.example.huangwei.animationapp.R;
  * @version 创建时间： 2017/08/18/11:13
  */
 
-public class SVGAnimAcvtivity extends AppCompatActivity implements View.OnClickListener {
+public class SVGAnimActivity extends AppCompatActivity implements View.OnClickListener {
   ImageView imageAnim;
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
