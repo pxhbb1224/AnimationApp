@@ -11,6 +11,7 @@ import com.example.huangwei.animationapp.R;
 public class MainActivity extends ListActivity {
   final int ITEM_VIEW_ANIMATION = 0;
   final int ITEM_PROPERTY_ANIMATION = 1;
+  final int ITEM_TEMP_DEMO = 2;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,8 @@ public class MainActivity extends ListActivity {
       case ITEM_PROPERTY_ANIMATION:
         startActivity(new Intent(this, PropertyAnimActivity.class));
         break;
+      case ITEM_TEMP_DEMO:
+        startActivity(new Intent(this, TempActivity.class));
       default:
         break;
     }

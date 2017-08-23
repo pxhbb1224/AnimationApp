@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <Button
+      android:id="@+id/btn_temp_jianshu"
+      style="@style/LinearLayout.SingleButton"
+      android:text="@string/text_view_animation_scale"
+      />
+  <Button
+      android:id="@+id/btn_svg_temp_jianshu"
+      style="@style/LinearLayout.SingleButton"
+      android:text="@string/anim_svg_temp_demo"
+      />
+
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="2dp"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/anim_svg_static_tips"
+      />
+  <ImageView
+      android:id="@+id/image_temp_jianshu"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_gravity="center_horizontal"
+      android:contentDescription="@null"
+      tools:background="@null"
+      tools:src="@drawable/vector_drawable_temp_demo"
+      />
+</LinearLayout>

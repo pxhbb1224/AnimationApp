@@ -25,4 +25,5 @@
   <string name="anim_svg_three_ball">三球仪</string>
   <string name="anim_svg_path">轨迹动画</string>
   <string name="anim_svg_static_tips">效果图:</string>
+  <string name="anim_svg_temp_demo">demo</string>
 </resources>

@@ -3,6 +3,7 @@
   <string-array name="animation_items">
     <item>View Animation</item>
     <item>Property Animation</item>
+    <item>Temp Animation</item>
   </string-array>
 
   <string-array name="property_animation_items">
