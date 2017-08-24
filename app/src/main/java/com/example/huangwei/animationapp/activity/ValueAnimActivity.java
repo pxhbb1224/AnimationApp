@@ -1,6 +1,5 @@
 package com.example.huangwei.animationapp.activity;
 
-import android.animation.Animator;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
