@@ -25,4 +25,9 @@
   <string name="anim_svg_three_ball">三球仪</string>
   <string name="anim_svg_path">轨迹动画</string>
   <string name="anim_svg_static_tips">效果图:</string>
+
+  <string name="btn_text_timer">计时器</string>
+  <string name="btn_text_yuan">¥%1$d</string>
+  <string name="btn_text_drop_down">下降出现动画</string>
+  <string name="btn_text_show">暂时只是显示</string>
 </resources>

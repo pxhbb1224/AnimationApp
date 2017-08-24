@@ -50,7 +50,10 @@ public class SVGAnimActivity extends AppCompatActivity implements View.OnClickLi
     setImageAnim(R.drawable.animated_vector_drawable_line_anim);
     startAnim();
   }
-  private void clickPathAnim(){}
+  private void clickPathAnim(){
+    setImageAnim(R.drawable.animated_vector_drawable_path_anim);
+    startAnim();
+  }
   private void clickThreeBallAnim(){
     setImageAnim(R.drawable.animated_vector_drawable_three_ball);
     startAnim();

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="@dimen/default_svg_height"
+    android:width="@dimen/default_svg_width"
+    android:viewportHeight="250"
+    android:viewportWidth="250"
+    >
+  <path
+      android:name="search"
+      android:strokeLineCap="round"
+      android:strokeAlpha="0.8"
+      android:strokeColor="@color/LightSteelBlue_1"
+      android:strokeWidth="2"
+      android:pathData="M 230,125
+                        L 221,114
+                        A 9,9 0 1,0 220,115"
+      />
+  <path
+      android:name="bar"
+      android:strokeAlpha="0.8"
+      android:strokeColor="@color/LightSteelBlue_1"
+      android:strokeWidth="2"
+      android:pathData=" M 20,125
+                         L 230,125"
+      android:strokeLineCap="square"
+      />
+</vector>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <Button
+      android:id="@+id/btn_value_timer"
+      style="@style/LinearLayout.SingleButton"
+      android:text="@string/btn_text_timer"
+      />
+  <Button
+      android:id="@+id/btn_value_drop_down"
+      style="@style/LinearLayout.SingleButton"
+      android:text="@string/btn_text_drop_down"
+      />
+  <Button
+      android:id="@+id/btn_value_show"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="gone"
+      android:text="@string/btn_text_show"
+      android:layout_gravity="center_horizontal"
+      tools:visibility="visible"
+      />
+  <Space
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/anim_svg_static_tips"
+      />
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:minHeight="@dimen/default_svg_height"
+      >
+    <ImageView
+        android:id="@+id/image_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:contentDescription="@null"
+        />
+    <TextView
+        android:id="@+id/text_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:textSize="30sp"
+        android:textColor="@android:color/secondary_text_dark"
+        tools:text="haha"
+        tools:visibility="visible"
+
+        />
+  </FrameLayout>
+
+
+
+</LinearLayout>
