@@ -17,7 +17,7 @@
         android:fillColor="@color/gold_1"
         android:pathData="M 50,50
                           a 10,10 0 1,0 20,0
-                          a 10,10 0 1,0 -10,0"
+                          a 10,10 0 1,0 -20,0"
         />
     <group
         android:name="earth"
