@@ -30,4 +30,6 @@
   <string name="btn_text_yuan">¥%1$d</string>
   <string name="btn_text_drop_down">下降出现动画</string>
   <string name="btn_text_show">暂时只是显示</string>
+  <string name="btn_text_add">ADD</string>
+  <string name="btn_test_delete">DELETE</string>
 </resources>

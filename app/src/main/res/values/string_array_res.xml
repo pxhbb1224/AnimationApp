@@ -10,4 +10,14 @@
     <item>Value Animator</item>
     <item>SVG Animator</item>
   </string-array>
+
+  <string-array name="recycler_view_orientation">
+    <item>LinearLayout</item>
+    <item>GridLayout</item>
+  </string-array>
+
+  <string-array name="recycler_view_test">
+    <item>RecyclerView0</item>
+    <item>RecyclerView1</item>
+  </string-array>
 </resources>

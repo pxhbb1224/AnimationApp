@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/recycler"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="0"
+      >
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:entries="@array/recycler_view_orientation"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@id/btn_recycler_add"
+        android:layout_marginEnd="30dp"
+        />
+    <Button
+        android:id="@+id/btn_recycler_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:text="@string/btn_test_delete"
+        />
+    <Button
+        android:id="@+id/btn_recycler_add"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/btn_text_add"
+        android:layout_toStartOf="@id/btn_recycler_delete"
+        />
+  </RelativeLayout>
+</LinearLayout>

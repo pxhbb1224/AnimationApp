@@ -23,6 +23,7 @@
     <activity android:name=".activity.ObjectAnimActivity" />
     <activity android:name=".activity.SVGAnimActivity" />
     <activity android:name=".activity.ValueAnimActivity" />
+    <activity android:name=".activity.RecyclerActivity" />
   </application>
 
 </manifest>
