@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <Button
+      style="@style/LinearLayout.SingleButton.Skip"
+      android:onClick="explode"
+      android:text="@string/btn_text_explode"
+      />
+
+  <Button
+      style="@style/LinearLayout.SingleButton.Skip"
+      android:onClick="slide"
+      android:text="@string/btn_text_slide"
+      />
+
+  <Button
+      style="@style/LinearLayout.SingleButton.Skip"
+      android:onClick="fade"
+      android:text="@string/btn_text_fade"
+      />
+
+  <Button
+      style="@style/LinearLayout.SingleButton.Skip"
+      android:onClick="share"
+      android:text="@string/btn_text_share"
+      />
+
+  <Button
+      android:id="@+id/btn_skip_fab"
+      style="@style/SkipButtonFab"
+      />
+</LinearLayout>

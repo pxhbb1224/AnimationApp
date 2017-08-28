@@ -24,6 +24,8 @@
     <activity android:name=".activity.SVGAnimActivity" />
     <activity android:name=".activity.ValueAnimActivity" />
     <activity android:name=".activity.RecyclerActivity" />
+    <activity android:name=".activity.SkipActivity" />
+    <activity android:name=".activity.SkipActivityB" />
   </application>
 
 </manifest>

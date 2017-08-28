@@ -35,4 +35,16 @@
     <item name="android:layout_gravity">center_horizontal</item>
     <item name="android:layout_margin">10dp</item>
   </style>
+  <style name="LinearLayout.SingleButton.Skip">
+    <item name="android:height">70dp</item>
+    <item name="android:layout_width">100dp</item>
+  </style>
+
+  <style name="SkipButtonFab">
+    <item name="android:layout_height">56dp</item>
+    <item name="android:layout_width">56dp</item>
+    <item name="android:elevation">5dp</item>
+    <item name="android:background">@drawable/shape_oval_round</item>
+    <item name="android:transitionName">@string/btn_text_fab</item>
+  </style>
 </resources>

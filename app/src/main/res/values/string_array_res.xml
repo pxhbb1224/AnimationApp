@@ -3,6 +3,8 @@
   <string-array name="animation_items">
     <item>View Animation</item>
     <item>Property Animation</item>
+    <item>RecyclerView</item>
+    <item>Skip Animation</item>
   </string-array>
 
   <string-array name="property_animation_items">
@@ -14,10 +16,5 @@
   <string-array name="recycler_view_orientation">
     <item>LinearLayout</item>
     <item>GridLayout</item>
-  </string-array>
-
-  <string-array name="recycler_view_test">
-    <item>RecyclerView0</item>
-    <item>RecyclerView1</item>
   </string-array>
 </resources>

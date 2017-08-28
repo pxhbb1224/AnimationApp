@@ -32,4 +32,11 @@
   <string name="btn_text_show">暂时只是显示</string>
   <string name="btn_text_add">ADD</string>
   <string name="btn_test_delete">DELETE</string>
+  <string name="title_recycler_view">RecyclerView</string>
+  
+  <string name="btn_text_explode">分解</string>
+  <string name="btn_text_slide">滑动</string>
+  <string name="btn_text_fade">淡出</string>
+  <string name="btn_text_share">共享</string>
+  <string name="btn_text_fab">组合</string>
 </resources>

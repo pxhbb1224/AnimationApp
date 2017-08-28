@@ -17,18 +17,18 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
   private OnItemClickListener innerListener;
   private List<String> items;
 
-  public RecyclerAdapter(List<String> data){
+  public RecyclerAdapter(List<String> data) {
     this.items = data;
   }
+
   @Override
   public void onBindViewHolder(ViewHolder holder, int position, List<Object> payloads) {
-    super.onBindViewHolder(holder, position, payloads);
     holder.setText(items.get(position));
   }
 
   @Override
   public void onBindViewHolder(ViewHolder holder, int position) {
-    onBindViewHolder(holder,position,null);
+    onBindViewHolder(holder, position, null);
   }
 
   @Override
@@ -38,13 +38,15 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
   @Override
   public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-    TextView v = (TextView) LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_string_list_item,parent,false);
+    TextView v =
+        (TextView) LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_string_item, parent, false);
     return new ViewHolder(v);
   }
 
-  public void setInnerListener(OnItemClickListener listener){
+  public void setInnerListener(OnItemClickListener listener) {
     this.innerListener = listener;
   }
+
   class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
     TextView textView;
 
@@ -57,16 +59,17 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     @Override
     public void onClick(View v) {
       if (textView != null) {
-        innerListener.OnItemClick(v,this.getAdapterPosition());
+        innerListener.OnItemClick(v, this.getAdapterPosition());
       }
     }
 
-    void setText(CharSequence text){
-      if (textView != null){
+    void setText(CharSequence text) {
+      if (textView != null) {
         textView.setText(text);
       }
     }
   }
+
   public interface OnItemClickListener {
     void OnItemClick(View view, int position);
   }
