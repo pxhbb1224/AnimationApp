@@ -39,4 +39,9 @@
   <string name="btn_text_fade">淡出</string>
   <string name="btn_text_share">共享</string>
   <string name="btn_text_fab">组合</string>
+
+  <string name="btn_text_start">Start</string>
+  <string name="notification_title">notification_title</string>
+  <string name="notification_content">notification_content</string>
+  <string name="btn_text_expand">Expand</string>
 </resources>

@@ -13,6 +13,8 @@ public class MainActivity extends ListActivity {
   final int ITEM_PROPERTY_ANIMATION = 1;
   final int ITEM_RECYCLER_VIEW = 2;
   final int ITEM_SKIP_ANIMATION = 3;
+  final int ITEM_NOTIFICATION = 4;
+  final int ITEM_SOUND_DEMO = 5;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +38,12 @@ public class MainActivity extends ListActivity {
         break;
       case ITEM_SKIP_ANIMATION:
         startActivity(new Intent(this,SkipActivity.class));
+        break;
+      case ITEM_NOTIFICATION:
+        startActivity(new Intent(this,NotificationStart.class));
+        break;
+      case ITEM_SOUND_DEMO:
+        startActivity(new Intent(this,SoundTest.class));
         break;
       default:
         break;

@@ -5,6 +5,8 @@
     <item>Property Animation</item>
     <item>RecyclerView</item>
     <item>Skip Animation</item>
+    <item>Notification</item>
+    <item>sound demo</item>
   </string-array>
 
   <string-array name="property_animation_items">

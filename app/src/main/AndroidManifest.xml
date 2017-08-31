@@ -26,6 +26,15 @@
     <activity android:name=".activity.RecyclerActivity" />
     <activity android:name=".activity.SkipActivity" />
     <activity android:name=".activity.SkipActivityB" />
+    <activity android:name=".activity.NotificationStart" />
+    <activity
+        android:name=".activity.NotificationShow"
+        android:parentActivityName=".activity.MainActivity"
+        >
+      <meta-data android:name="android.support.PARENT_ACTIVITY"
+                 android:value=".activity.NotificationStart" />
+    </activity>
+    <activity android:name=".activity.SoundTest" />
   </application>
 
 </manifest>
